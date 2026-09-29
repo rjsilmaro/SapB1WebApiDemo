@@ -1,0 +1,158 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SapB1WebApiDemo",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/business-partners/{cardcode}": {
+      "get": {
+        "tags": [
+          "BusinessPartner"
+        ],
+        "parameters": [
+          {
+            "name": "cardcode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/business-partners": {
+      "post": {
+        "tags": [
+          "BusinessPartner"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBusinessPartnerRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBusinessPartnerRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBusinessPartnerRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BusinessPartnerDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BusinessPartnerDto": {
+        "type": "object",
+        "properties": {
+          "cardCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardtype": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone1": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateBusinessPartnerRequest": {
+        "required": [
+          "cardCode",
+          "cardName",
+          "cardType"
+        ],
+        "type": "object",
+        "properties": {
+          "cardCode": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cardName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cardType": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "phone1": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

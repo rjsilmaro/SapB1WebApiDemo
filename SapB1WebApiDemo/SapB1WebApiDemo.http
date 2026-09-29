@@ -1,0 +1,6 @@
+@SapB1WebApiDemo_HostAddress = http://localhost:5132
+
+GET {{SapB1WebApiDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

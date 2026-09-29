@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|c:\\users\\ark one\\source\\repos\\training\\sapb1webapidemo\\sapb1webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|solutionrelative:sapb1webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|c:\\users\\ark one\\source\\repos\\training\\sapb1webapidemo\\sapb1webapidemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|solutionrelative:sapb1webapidemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|c:\\users\\ark one\\source\\repos\\training\\sapb1webapidemo\\sapb1webapidemo\\services\\businesspartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|solutionrelative:sapb1webapidemo\\services\\businesspartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|c:\\users\\ark one\\source\\repos\\training\\sapb1webapidemo\\sapb1webapidemo\\controllers\\businesspartnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489C9CAF-C109-4AC7-B119-1C45BE65D77A}|SapB1WebApiDemo\\SapB1WebApiDemo.csproj|solutionrelative:sapb1webapidemo\\controllers\\businesspartnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SapB1WebApiDemo\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SapB1WebApiDemo\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T03:38:11.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessPartnerController.cs",
+              "DocumentMoniker": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Controllers\\BusinessPartnerController.cs",
+              "RelativeDocumentMoniker": "SapB1WebApiDemo\\Controllers\\BusinessPartnerController.cs",
+              "ToolTip": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Controllers\\BusinessPartnerController.cs",
+              "RelativeToolTip": "SapB1WebApiDemo\\Controllers\\BusinessPartnerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T03:13:41.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusinessPartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Services\\BusinessPartnerService.cs",
+              "RelativeDocumentMoniker": "SapB1WebApiDemo\\Services\\BusinessPartnerService.cs",
+              "ToolTip": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Services\\BusinessPartnerService.cs",
+              "RelativeToolTip": "SapB1WebApiDemo\\Services\\BusinessPartnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T03:09:50.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SapB1WebApiDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Ark One\\source\\repos\\Training\\SapB1WebApiDemo\\SapB1WebApiDemo\\Program.cs",
+              "RelativeToolTip": "SapB1WebApiDemo\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T02:55:15.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

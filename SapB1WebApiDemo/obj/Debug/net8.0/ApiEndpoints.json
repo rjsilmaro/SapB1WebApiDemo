@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "SapB1WebApiDemo.Controllers.BusinessPartnerController",
+    "Method": "Create",
+    "RelativePath": "api/business-partners",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SapB1WebApiDemo.Models.CreateBusinessPartnerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SapB1WebApiDemo.Models.BusinessPartnerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SapB1WebApiDemo.Controllers.BusinessPartnerController",
+    "Method": "GetByCardCode",
+    "RelativePath": "api/business-partners/{cardcode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardcode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SapB1WebApiDemo.Models.BusinessPartnerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
